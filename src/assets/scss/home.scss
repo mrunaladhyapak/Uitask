@@ -1,0 +1,299 @@
+.homestyle{
+  height: 100vh;
+  background-color: #f3b50a;
+  align-content: center;
+
+
+  .div-style{
+    height: 88vh;
+    overflow: hidden auto;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sliderdivtraining {
+  background-color: #2B4BB6;
+  border-radius: 16px;
+  height: 600px;
+  overflow: hidden;
+}
+.sliderimg {
+  height: 330px;
+  border-radius: 8px;
+  width: auto;
+}
+.sliderimgtraining {
+  height: 460px;
+  border-radius: 8px;
+  width: auto;
+}
+
+.sliderimgmarketing {
+  height: 460px;
+  border-radius: 8px;
+width: auto;
+}
+
+
+.custom-slider .slick-prev {
+  left: 0px !important;
+}
+.custom-slider .slick-next {
+  right: 0px !important;
+}
+.custom-slider .slick-slide {
+  opacity: 0.5;
+  filter: blur(5px);
+  transition: all 0.5s ease;
+  padding: 20px;
+}
+
+.custom-slider .slick-center {
+  opacity: 1 !important; /* Make the active slide fully visible */
+  filter: none !important; /* Remove blur for the active slide */
+  transform: scale(1.1); /* Slightly scale the active image */
+  z-index: 2; /* Bring the active image forward */
+}
+
+.slick-slide img {
+  width: 100%; /* Ensure the image scales properly */
+  border-radius: 10px; /* Optional: Add rounded corners to images */
+}
+
+.custom-slider .slick-list {
+  overflow: visible; /* Allow side images to be partially visible */
+}
+
+.slick-prev, .slick-next {
+  z-index: 3; /* Ensure navigation arrows are above images */
+  color: gold; /* Optional: Customize the navigation arrow color */
+}
+ 
+.slider-style{
+  background: #000;
+}
+    .icostyle{
+      background-color: transparent;
+      color:#000;  
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+    color:#000;
+    }
+    .txtstyle{
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      color:#f3b50a;
+      text-align: left;
+    }
+    .subtxt{
+      font-family: "Montserrat" !important;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color:#f3b50a;
+      text-align: left;
+    }
+    .btnstyle{
+      background-color: #f3b50a;
+      border: 1px solid transparent;
+      border-radius: 16px;
+      color:#000;
+      font-family:"Montserrat" !important;
+      font-family: normal;
+      font-weight: 500;
+      font-size: 18px;
+      &:hover{
+        background-color: #fff;
+        color:#000;
+        border: 1px solid transparent;
+      }
+    }
+    .arrowdwnbtn{
+      background-color: transparent;
+      border: 1px solid transparent !important;
+      padding: 0px;
+      .arrow{
+        color: #f3b50a;
+        font-size: 34px;
+      }
+      &:hover,
+      &:active,
+      &:focus{
+        background-color: transparent;
+        border: 1px solid transparent !important;
+        padding: 0px;
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .imgstyle{
+      height: 480px;
+      opacity: 0; 
+      animation: fadeIn 2s ease-in forwards;
+    }
+ 
+    
+    
+}
+@media (max-width:767px){
+  .homestyle{
+    height: 100vh;
+    background-color: #f3b50a;
+    align-content: center;
+  
+  
+    .div-style{
+      height: 88vh;
+      overflow: hidden auto;
+      width: 93%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  
+  .sliderdivtraining {
+    background-color: #2B4BB6;
+    border-radius: 16px;
+    height: 600px;
+    overflow: hidden;
+  }
+  .sliderimg {
+    height: 250px;
+    border-radius: 8px;
+    width: auto;
+  }
+  .sliderimgtraining {
+    height: 460px;
+    border-radius: 8px;
+    width: auto;
+  }
+  
+  .sliderimgmarketing {
+    height: 460px;
+    border-radius: 8px;
+  width: auto;
+  }
+  
+  
+  .custom-slider .slick-prev {
+    left: 0px !important;
+  }
+  .custom-slider .slick-next {
+    right: 0px !important;
+  }
+  .custom-slider .slick-slide {
+    opacity: 0.5;
+    filter: blur(5px);
+    transition: all 0.5s ease;
+    padding: 10px;
+  }
+  
+  .custom-slider .slick-center {
+    opacity: 1 !important; /* Make the active slide fully visible */
+    filter: none !important; /* Remove blur for the active slide */
+    transform: scale(1.1); /* Slightly scale the active image */
+    z-index: 2; /* Bring the active image forward */
+  }
+  
+  .slick-slide img {
+    width: 100%; /* Ensure the image scales properly */
+    border-radius: 10px; /* Optional: Add rounded corners to images */
+  }
+  
+  .custom-slider .slick-list {
+    overflow: visible; /* Allow side images to be partially visible */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 3; /* Ensure navigation arrows are above images */
+    color: gold; /* Optional: Customize the navigation arrow color */
+  }
+   
+  .slider-style{
+    background: #000;
+  }
+      .icostyle{
+        background-color: transparent;
+        color:#000;  
+      }
+      .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      background-color: transparent;
+      color:#000;
+      }
+      .txtstyle{
+        font-family: "Orbitron";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        color:#f3b50a;
+        text-align: left;
+      }
+      .subtxt{
+        font-family: "Montserrat" !important;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color:#f3b50a;
+        text-align: left;
+      }
+      .btnstyle{
+        background-color: #f3b50a;
+        border: 1px solid transparent;
+        border-radius: 16px;
+        color:#000;
+        font-family:"Montserrat" !important;
+        font-family: normal;
+        font-weight: 500;
+        font-size: 18px;
+        &:hover{
+          background-color: #fff;
+          color:#000;
+          border: 1px solid transparent;
+        }
+      }
+      .arrowdwnbtn{
+        background-color: transparent;
+        border: 1px solid transparent !important;
+        padding: 0px;
+        .arrow{
+          color: #f3b50a;
+          font-size: 34px;
+        }
+        &:hover,
+        &:active,
+        &:focus{
+          background-color: transparent;
+          border: 1px solid transparent !important;
+          padding: 0px;
+        }
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .imgstyle{
+        width: 100%;
+        opacity: 0; 
+        margin-top: 15px;
+        animation: fadeIn 2s ease-in forwards;
+      }
+   
+      
+      
+  }
+}
